@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Arquivos do IntelliJ
+.idea/
+
+# Arquivos do sistema operacional
+*.log
+*.DS_Store
+
+# Dependências e builds
+/node_modules/
+*.jar
+
+# Configurações sensíveis
+application.yml
+application.properties
+.env
+
