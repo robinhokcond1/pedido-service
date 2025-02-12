@@ -2,7 +2,7 @@ package com.devstore.pedidos.entities;
 
 import com.devstore.pedidos.enums.UserRole;
 import jakarta.persistence.*;
-import jakarta.persistence.criteria.Order;
+
 import lombok.*;
 
 import java.util.HashSet;

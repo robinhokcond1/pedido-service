@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/pedido_db
     username: postgres
-    password: postgres
+    password: senha123
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -17,7 +17,3 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   show-sql: true
 
-  security:
-    user:
-      name: admin
-      password: 123456
